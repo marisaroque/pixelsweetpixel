@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+	<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+	<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+	<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+	<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+	<head>
+	
+		<!-- Basic Page Needs
+	  ================================================== -->
+		<meta charset="utf-8">
+		<title>Pixel Sweet Pixel</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+	
+		<!-- Mobile Specific Metas
+	  ================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+		<!-- CSS
+	  ================================================== -->
+		<link rel="stylesheet" href="stylesheets/skeleton.css">
+		<link rel="stylesheet" href="stylesheets/jquery.dialog.css">
+		<link rel="stylesheet" href="stylesheets/layout.css">
+		
+
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+	
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="stylesheets/font-awesome-ie7.min.css">
+		<![endif]-->
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+		<!-- Showing the native date picker only to users that are on touch capable devices. -->
+		<script>
+		    if (Modernizr.touch && Modernizr.inputtypes.date) {
+		        document.getElementById('start').type = 'date';
+		    } else {
+		        jQuery('#start').datepicker();
+		    }
+		</script>
+		
+		<!-- Favicons
+		================================================== -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+		
+	
+	
+	</head>
+	<body>
+		<!-- Primary Page Layout
+		================================================== -->
+	
+		<div class="container">
+			
+			<ul id="language">
+				<li id="portuguese_version"><a href="#"><img src="images/pt.svg" alt="portuguese flag" width="22" height="14"></a></li>
+				<li id="english_version"><a href="#"><img src="images/en.svg" alt="english flag" width="22" height="14"></a></li>
+			</ul>
+			
+			<header id="header" class="block sixteen columns">
+				<a href="/" id="logo">Pixel Sweet Pixel</a>
+				
+				<nav role="navigation" id="nav">				
+					<ul >
+						<li class=""><a href="#slides">Home</a></li>
+						<li class="active"><a href="#work">Work</a></li>
+					
+						<li class="middle"></li>
+
+						<li class=""><a href="#about">About</a></li>
+						<li class=""><a href="#contact">Contact</a></li>
+					</ul>					
+				</nav>
+			</header>
+			
+			
+				<!-- The slider Content -->
+				 <div class="container-slider"> 
+						<div id="slides">
+					      <div class="fit">
+					      	<h1 class="fittext1">Hi, we're <span class="accent">Pixel Sweet Pixel®</span></h1>
+					      	<h1 class="fittext1">Nice to meet you.</h1>
+					      </div>
+					      <div class="fit">
+					      	<h1 class="fittext1">We create <span class="accent">sweet </span>projects</h1>
+					      	<h1 class="fittext1">With <span class="accent">perfect-pixels.</span></h1>
+					      </div>
+					      <div class="fit">
+					      	<h1 class="fittext1">We have a <span class="accent">passion </span>for web</h1>
+					      	<h1 class="fittext1">And focus on <span class="accent">simplicity</span>.</h1>
+					      </div>
+					</div>
+				 </div> 
+			 
+			
+			
+			<section id="work" class="block">
+				<div class="sixteen columns">		
+					<h2 class="inline-border">Work</h2>
+					<p class="description">Here’s a selection of some of the projects we’ve lovingly crafted over the last few years. If you’d like to see more, just shout.</p>
+				</div>
+				
+				<div class="wrap sixteen columns">
+				 				
+					<a href="#image-1" class="diamond">
+						<div class="diamond-content">
+							<img src="images/sara.jpg" alt="">
+						</div>
+						<article class="roll">
+							<div class="element">
+								<img src="images/more.svg" alt="" width="25" height="25" />
+								<h3>Translation Boutique<br><span>Website</span></h3>
+							</div>
+						</article>
+					</a>
+					<div class="lb-overlay" id="image-1">
+					    <a href="#work" class="lb-close">x</a>
+					    <div class="lb-overlay-wrapper">
+					        <img src="images/sara.jpg" alt="image01" />
+					        <a href="#image-3" class="lb-prev">Prev</a>
+					        <a href="#image-2" class="lb-next">Next</a>
+					        <div>
+					            <h3>Translation Boutique<br /><small>Website</small></h3>
+					            <p> A responsive website for a portuguese freelancer translator using media queries to display the site at different screen sizes.
+					            Designed and built from scratch with CSS3, HTML5, JQUERY and PHP..</p>
+
+					            <a href="#" target="_blank" alt="Visit" title="Visit" class="overlay-link"><span>Visit Project</span><span class="arrow"></span></a>
+
+					        </div>
+					    </div>
+					</div>									
+
+					<a href="#image-2" class="diamond">
+						<div class="diamond-content">
+							<img src="images/wedding1.jpg" alt="">
+						</div>
+						<article class="roll">
+							<div class="element">
+								<img src="images/more.svg" alt="" width="25" height="25" />
+								<h3>Wedding Invitation<span><br>Website</span></h3>
+							</div>
+						</article>
+					</a>
+					
+					<div class="lb-overlay" id="image-2">
+					    <a href="#work" class="lb-close">x</a>
+					    <div class="lb-overlay-wrapper">
+					        <img src="images/wedding1.jpg" alt="image02" />
+					        <div>
+					            <h3>Wedding Invitation<br /><small>Website Template</small></h3>
+					            <p> Wedding invitation website template aimed for couples who are looking for something more than a traditional wedding invitation. 
+					                Retina-ready responsive website designed and built from scratch with CSS3, HTML5, JQUERY, PHP and media queries to be displayed at different devices and screen sizes.</p>
+					            <a href="#" target="_blank" alt="Visit" title="Visit" class="overlay-link"><span>Visit Project</span><span class="arrow"></span></a>
+					            <a href="#image-1" class="lb-prev"><i class="icon-chevron-left"></i></a>
+					            <a href="#image-3" class="lb-next"><i class="icon-chevron-right"></i></a>
+					        </div>
+					    </div>
+					</div>
+					
+					<a href="#image-3" class="diamond">
+						<div class="diamond-content">
+							<img src="images/sara.jpg" alt="">
+						</div>
+						<article class="roll">
+							<div class="element">
+								<img src="images/more.svg" alt="" width="25" height="25" />
+								<h3>Translation Boutique<br><span>Website</span></h3>
+							</div>
+						</article>
+					</a>
+					<div class="lb-overlay" id="image-3">
+					    <a href="#work" class="lb-close">x</a>
+					    <div class="lb-overlay-wrapper">
+					        <img src="images/sara.jpg" alt="image01" />
+					        <a href="#image-2" class="lb-prev">Prev</a>
+					        <a href="#image-1" class="lb-next">Next</a>
+					        <div>
+					            <h3>Translation Boutique<br /><small>Website</small></h3>
+					            <p> A responsive website for a portuguese freelancer translator using media queries to display the site at different screen sizes.
+					            Designed and built from scratch with CSS3, HTML5, JQUERY and PHP.</p>
+
+					            <a href="#" target="_blank" alt="Visit" title="Visit" class="overlay-link"><span>Visit Project</span><span class="arrow"></span></a>
+
+					        </div>
+					    </div>
+					</div>									
+										
+				</div>
+				
+			</section>
+			
+			<section id="about" class="block">
+				<div class="sixteen columns">
+					<h2 class="inline-border">About</h2>
+					<p class="description">We beautify brands by distilling design. We amplify voice and vivify visuals. We present ideas succinctly. We're in the business of making businesses look better. We use research, strategy and problem solving to take your ideas and work with you to make them even better. We offer you a full-service from the first briefing to the final product and use our creative and technical knowledge to satisfy your needs. We are hunting for ambitious projects.</p>
+				</div>
+						
+				<div class="eight columns about-block">  
+					<div class="two columns alpha">
+						<img src="./images/1.svg" width="110" height="110" alt="" />
+					</div>
+					<div class="five columns">	
+						<h3>UI and UX Design</h3>
+						<p>UX is a crucial part of all our projects - ensuring a natural flow that everyone can use and enjoy.</p>
+					</div>
+				</div>
+				
+				<div class="eight columns about-block">
+					<div class="two columns alpha">
+						<img src="./images/2.svg" width="110" height="110" alt="" />
+					</div>
+					<div class="five columns">
+						<h3>Content Management</h3>
+						<p>Have the ability to update your website without needing to contact us.</p>
+					</div>
+				</div>
+				
+				<div class="eight columns about-block">
+					<div class="two columns alpha">
+						<img src="./images/3.svg" width="110" height="110" alt="" />
+					</div>
+					<div class="five columns">
+						<h3>Web Development</h3>
+						<p>We write clean code. We string together ones and zeros to construct sites from scratch. We're fluent in many programming languages, including LOVE.</p>
+					</div>
+				</div>
+				
+				<div class="eight columns about-block">
+					<div class="two columns alpha">
+						<img src="./images/4.svg" width="110" height="110" alt="" />
+					</div>
+					<div class="five columns">
+						<h3>Web Design</h3>
+						<p>We design memorable sites. We captivate with lines, color, type, and space. We make ugly things pretty and pretty things prettier.</p>
+					</div>
+				</div>
+				
+			</section>
+			
+			<section id="contact" class="block">			
+				<div class="sixteen columns">
+					<h2 class="inline-border">Contact</h2>
+					<p class="description">Send us your info and we’ll get in touch. We’d love to hear from you and answer any questions you may have.</p>
+				</div>
+				
+				<form action="sendmail.php" method="post" name="contactform" id="contactform" class="eight columns">							
+					<fieldset >
+						
+						<div class='four columns alpha input-container'>
+							<div class="icon-ph"><i class="icon-user"></i></div>
+							<input type="text" name="name" id="name" placeholder="Your Name" class="custom-text">
+						</div>
+						
+						<div class='four columns omega input-container'>
+							<div class="icon-ph"><i class="icon-envelope-alt"></i></div>
+							<input type="email" name="email" id="email" placeholder="Your Email" class="custom-text">
+						</div>
+						
+						<div class="four columns alpha">
+							<select name="type" class="chosen-select" id="type">
+								<option value="">Project type</option>
+								<option value="Web Development">Web Development</option>
+								<option value="UI Design">User Interface Design</option>
+								<option value="Site Design">Site Design</option>
+								
+								<option value="Not Sure">Not Sure</option>
+							</select>
+						</div>
+						<div class="four columns omega">
+							<select name="budget" class="chosen-select" id="budget">
+								<option value="">Your budget</option>
+								<option value="100-300€">100€ - 300€</option>
+								<option value="300-500€">300€ - 500€</option>
+								<option value="500-1000€">500€ - 1 000€</option>
+								<option value="+1000€">+1 000€</option>
+							</select>
+						</div>
+						
+						<div class='four columns alpha input-container'>
+							<div class="icon-ph"><i class="icon-calendar-empty"></i></div>
+							<input type="text" name="start" id="start" placeholder="Start date" class="custom-text datepicker">
+						</div>
+						
+						
+						<div class='four columns omega input-container'>
+							<div class="icon-ph"><i class="icon-calendar"></i></div>
+							<input type="text" name="finish" id="finish" placeholder="Finish date" class="custom-text datepicker">
+						</div>
+		
+						<textarea id="comments" name="comments" placeholder="Pop your message in here... "></textarea>
+		
+		
+						<!-- This is hidden for normal users -->
+						<div class="hidden">
+							<label>
+								Do not fill out this field
+								<input name="s_check">
+							</label>
+						</div>
+						
+						<button type="submit" id="submit" class="two columns alpha omega">Submit</button>
+						
+					</fieldset>
+	
+					<!-- This is hidden for normal users -->
+					<div class="hidden">
+						<label>
+							Do not fill out this field
+							<input name="s_check">
+						</label>
+					</div>
+					<p hidden id="response"></p>
+					
+				</form>		
+				
+				<div class="eight columns">
+					<p>Phone: +351 917480204</p>
+					<p>Email: info@pixelsweetpixel.com</p>
+					<p>Have a project in mind?
+					Do you have a project you would like us to take a look at or maybe you have an idea?.
+					Either way don't hesitate to drop us an email using the contact form or call us on the telephone.</p>
+				</div>
+			</section>
+			
+			<section id="thanks" class="block">
+				<div class="sixteen columns">
+					<h2 class="inline-border">Thanks</h2>
+						<p><small>Copyright © 2013-2014 Built by PixelSweetPixel. All rights reserved.<br>
+						Registered in Portugal Company No. 0123455 VAT Registration No. 899 6307 54</small></p>
+						<p><small><a href="legal.html">Read the boring legal stuff.</a></small></p>
+				</div>
+			</section>
+		
+		</div><!-- container -->
+	
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+	
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		
+		<script src="js/plugins.js"></script>
+		<script src="js/jquery.scrollTo.js"></script>
+		<script src="js/jquery.nav.js"></script>
+		
+		<script src="js/jquery.fittext.js"></script>
+		<script src="js/jquery.slides.min.js"></script>
+		
+		
+		<script src="js/jquery.dialog.min.js"></script>
+		<script src="js/chosen.jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	
+		<script>
+		    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+		    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		    g.src='//www.google-analytics.com/ga.js';
+		    s.parentNode.insertBefore(g,s)}(document,'script'));
+		</script>
+	
+	<!-- End Document
+	================================================== -->
+	</body>
+	</html>
